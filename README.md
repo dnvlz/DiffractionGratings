@@ -29,7 +29,5 @@ focused with a lens of focal length $f$, and falls on a screen. Theory tells us 
 central axis of the system, is given by
 $$I(x)=\int_{-w/2}^{w/2}\bigg|\sqrt{q(u)}e^{i2\pi x u/\lambda f}du \bigg|^2,$$
 where $q(u)$ is the intensity transmission function of the diffraction grating at a distance $u$ from
-the central axis, i.e., the fraction of the incident light that the grating lets through. We consider a grating with transmission function $q(u) = sin^2 \alpha u$.
-We wrote a Python function $q(u)$ that returns the transmission function $q(u) = sin^2 \alpha u$  at position $u$ for a grating whose slits have separation $20 \mu m$.
-We used this function in a program to calculate and graph the intensity of the diffraction pattern produced by such a grating having ten slits in total, if the incident light has wavelength $\lambda = 500 nm$. We assume the lens has a focal length of 1 meter and the screen is 10 cm
-wide. We created a visualization of how the diffraction pattern would look on the screen using a density plot.
+the central axis, i.e., the fraction of the incident light that the grating lets through. We consider a grating with transmission function $q(u) = sin^2 \alpha u$ for a grating whose slits have separation $20 \mu m$. With this function, we calculate and graph the intensity of the diffraction pattern produced by the grating having ten slits in total, when the incident light has wavelength $\lambda = 500 nm$. We assume the lens has a focal length of 1 meter and the screen is 10 cm
+wide. A visualization of how the diffraction pattern would look on the screen using a density plot is shown.
