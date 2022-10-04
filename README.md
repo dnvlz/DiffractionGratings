@@ -24,7 +24,7 @@ that can be used to set the value that corresponds to the dimmest (most negative
 this exercise a value of vmax=0.01 appears to work well.
 
 ## Second pattern
-We study a system where ight with wavelength $\lambda$ is incident on a diffraction grating of total width $w$, gets diffracted, is
+We study a system where light with wavelength $\lambda$ is incident on a diffraction grating of total width $w$, gets diffracted, is
 focused with a lens of focal length $f$, and falls on a screen. Theory tells us that the intensity of the diffraction pattern on the screen, a distance $x$ from the
 central axis of the system, is given by
 $$I(x)=\int_{-w/2}^{w/2}\bigg|\sqrt{q(u)}e^{i2\pi x u/\lambda f}du \bigg|^2,$$
