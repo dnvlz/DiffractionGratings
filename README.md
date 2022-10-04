@@ -1,6 +1,7 @@
 # DiffractionGratings
 
-1. Our ability to resolve detail in astronomical observations is limited by the diffraction of light in our telescopes. Light from stars can be treated effectively as coming from a point source at infinity. When such light, with wavelength $\lambda$, passes through the circular aperture of a telescope (which we’ll assume to have unit radius) and is focused by the telescope in the focal
+## First pattern
+Our ability to resolve detail in astronomical observations is limited by the diffraction of light in our telescopes. Light from stars can be treated effectively as coming from a point source at infinity. When such light, with wavelength $\lambda$, passes through the circular aperture of a telescope (which we’ll assume to have unit radius) and is focused by the telescope in the focal
 plane, it produces not a single dot, but a circular diffraction pattern consisting of central spot
 surrounded by a series of concentric rings. The intensity of the light in this diffraction pattern
 is given by
@@ -22,7 +23,8 @@ increase the sensitivity of the plot, making subtle details visible. (There is a
 that can be used to set the value that corresponds to the dimmest (most negative) color.) For
 this exercise a value of vmax=0.01 appears to work well.
 
-2. We study a system where ight with wavelength $\lambda$ is incident on a diffraction grating of total width $w$, gets diffracted, is
+## Second pattern
+We study a system where ight with wavelength $\lambda$ is incident on a diffraction grating of total width $w$, gets diffracted, is
 focused with a lens of focal length $f$, and falls on a screen. Theory tells us that the intensity of the diffraction pattern on the screen, a distance $x$ from the
 central axis of the system, is given by
 $$I(x)=\int_{-w/2}^{w/2}\bigg|\sqrt{q(u)}e^{i2\pi x u/\lambda f}du \bigg|^2,$$
