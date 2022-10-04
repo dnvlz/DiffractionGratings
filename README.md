@@ -9,7 +9,7 @@ $$I(r) =\left(\frac{J_1(kr)}{kr}\right)^2,$$
 where $r$ is the distance in the focal plane from the center of the diffraction pattern, $k =\frac{2\pi}{\lambda}$,
 and $J_1(x)$ is a Bessel function. 
 
-We show a program that makes a density plot of the intensity of the circular diffraction pattern of a point light source with $\lambda = 500 nm$, in a square region of the focal plane,
+We wrote a program that makes a density plot of the intensity of the circular diffraction pattern of a point light source with $\lambda = 500 nm$, in a square region of the focal plane,
 using the formula given above. The pictures covers values of $r$ from zero up to about $1\mu m$.
 
 The central spot in the
@@ -30,6 +30,6 @@ central axis of the system, is given by
 $$I(x)=\int_{-w/2}^{w/2}\bigg|\sqrt{q(u)}e^{i2\pi x u/\lambda f}du \bigg|^2,$$
 where $q(u)$ is the intensity transmission function of the diffraction grating at a distance $u$ from
 the central axis, i.e., the fraction of the incident light that the grating lets through. We consider a grating with transmission function $q(u) = sin^2 \alpha u$.
-We write a Python function $q(u)$ that returns the transmission function $q(u) = sin^2 \alpha u$  at position $u$ for a grating whose slits have separation $20 \mu m$.
+We wrote a Python function $q(u)$ that returns the transmission function $q(u) = sin^2 \alpha u$  at position $u$ for a grating whose slits have separation $20 \mu m$.
 We used this function in a program to calculate and graph the intensity of the diffraction pattern produced by such a grating having ten slits in total, if the incident light has wavelength $\lambda = 500 nm$. We assume the lens has a focal length of 1 meter and the screen is 10 cm
 wide. We created a visualization of how the diffraction pattern would look on the screen using a density plot.
