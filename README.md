@@ -13,7 +13,7 @@ using the formula given above. The pictures covers values of $r$ from zero up to
 
 The central spot in the
 diffraction pattern is so bright that it may be difficult to see the rings around it on the computer
-screen. A simple way to deal with it is to find an appropriate color scheme for the density plot. Foa more sophisticated solution to the problem, the imshow function has an additional argument vmax
+screen. A simple way to deal with it is to find an appropriate color scheme for the density plot. For a more sophisticated solution to the problem, the imshow function has an additional argument vmax
 that allows you to set the value that corresponds to the brightest point in the plot. For instance,
 if you say “imshow(x,vmax=0.1)”, then elements in x with value 0.1, or any greater value, will
 produce the brightest (most positive) color on the screen. By lowering the vmax value, you can
