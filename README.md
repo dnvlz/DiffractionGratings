@@ -21,3 +21,13 @@ reduce the total range of values between the minimum and maximum brightness, and
 increase the sensitivity of the plot, making subtle details visible. (There is also a vmin argument
 that can be used to set the value that corresponds to the dimmest (most negative) color.) For
 this exercise a value of vmax=0.01 appears to work well.
+____________________________________________________________________________________________________________
+LWe study a system where ight with wavelength $\lambda$ is incident on a diffraction grating of total width $w$, gets diffracted, is
+focused with a lens of focal length $f$, and falls on a screen. Theory tells us that the intensity of the diffraction pattern on the screen, a distance $x$ from the
+central axis of the system, is given by
+$$I(x)=\int_{-w/2}^{w/2}\bigg|\sqrt{q(u)}e^{i2\pi x u/\lambda f}du \bigg|^2,$$
+where $q(u)$ is the intensity transmission function of the diffraction grating at a distance $u$ from
+the central axis, i.e., the fraction of the incident light that the grating lets through. We consider a grating with transmission function $q(u) = sin^2 \alpha u$.
+We write a Python function $q(u)$ that returns the transmission function $q(u) = sin^2 \alpha u$  at position $u$ for a grating whose slits have separation $20 \mu m$.
+We used this function in a program to calculate and graph the intensity of the diffraction pattern produced by such a grating having ten slits in total, if the incident light has wavelength $\lambda = 500 nm$. We assume the lens has a focal length of 1 meter and the screen is 10 cm
+wide. We created a visualization of how the diffraction pattern would look on the screen using a density plot.
